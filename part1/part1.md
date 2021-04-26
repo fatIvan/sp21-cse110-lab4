@@ -1,4 +1,4 @@
-Part 1a
+## Part 1a
 1. values added:  20
 2. final result:  20
 3. values added:  20
@@ -6,7 +6,7 @@ Part 1a
 5. Error, because on line 9, it is trying reassign it to another value which is prevented by the const keyword.
 6. Error, because the "result" is only declared in the if-block, so it is not defined when trying to print the "result" outside of the if-block.
 
-Part1b
+## Part 1b
 1. It prints out 3, because the iterator i is a var, which means that it has a function scope and can be console logged after the for loop. Since there are 3 prices, the iterator i will increment until 3 and finds out that it will no longer go into the for loop, therefore console.log(i) will print out 3.
 2. It prints out 150, because the discountedPrice is of type var, which means that it can be accessed outside of the for loop inside the function scope. The last iteration of the for loop took the last price in the prices array and do the calculation which is discountedPrice = 300*(1-0.5) which results in 150.
 3. It prints out 150, because the finalPrice is of type var, which means that it can be accessed in the function scope. The last iteration of the for loop kept the value of finalPrice to be finalPrice = Math.round(discountedPrice * 100) / 100 = 150 which results in 150.
