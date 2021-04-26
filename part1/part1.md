@@ -36,7 +36,7 @@ Part1b
     A. true, string '2' becomes a number 2
     B. false, string '2' has a greater first character value than string '12'
     C. true, string '2' becomes a number 2
-    D. false, '2' and 2 has different type.
+    D. false, '2' and 2 are of different type.
     E. false, true is converted to 1 and 1 does not equal 2, so false.
     F. true, Boolean(2) is true and they are equal and of the same type as well, therefore true.
 15. A regular equality check == will convert the operands to numbers first if they are of different types and then do the comparison, however, a strict equality operator === checks the equality without type conversion.
